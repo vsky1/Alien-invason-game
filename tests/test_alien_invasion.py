@@ -1,12 +1,6 @@
 import unittest
-import pygame
-from alien_invasion import AlienInvasion
-from settings import Settings
-from ship import Ship
-from bullet import Bullet
-from alien import Alien
-from game_stats import GameStats
-from scoreboard import Scoreboard
+from alien_invasion.alien_invasion import AlienInvasion
+
 
 class TestAlienInvasion(unittest.TestCase):
     def setUp(self):
